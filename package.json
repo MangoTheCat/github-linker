@@ -1,14 +1,14 @@
 {
   "name": "github-linker",
   "description": "Little module that helps with link resolving.",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/MangoTheCat/github-linker",
   "bugs": "https://github.com/MangoTheCat/github-linker/issues",
   "license": "MIT",
   "main": "index.js",
   "author": {
     "name": "Gabor Csardi",
-    "email": "gcsardi@mangothecat.com"
+    "email": "gcsardi@mango-solutions.com"
   },
   "repository": {
     "type": "git",
@@ -16,23 +16,23 @@
   },
   "keywords": [],
   "dependencies": {
-    "duo-parse": "^0.2.0",
+    "duo-parse": "^0.5.0",
     "github-url-from-git": "^1.4.0",
     "github-url-from-username-repo": "^1.0.2"
   },
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-util": "^3.0.1",
-    "gulp-bump": "^0.1.11",
-    "gulp-jscs": "^1.1.2",
-    "gulp-jshint": "^1.8.4",
-    "gulp-mocha": "^1.1.0",
-    "gulp-istanbul": "^0.3.0",
-    "coveralls": "^2.11.1",
-    "should": "^4.0.4",
-    "jshint-stylish": "^0.4.0",
-    "gulp-load-plugins": "^0.6.0",
-    "gulp-plumber": "^0.6.5"
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "gulp-bump": "^2.1.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-istanbul": "^0.10.4",
+    "coveralls": "^2.11.9",
+    "should": "^8.3.0",
+    "jshint-stylish": "^2.1.0",
+    "gulp-load-plugins": "^1.2.1",
+    "gulp-plumber": "^1.1.0"
   },
   "scripts": {
     "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
