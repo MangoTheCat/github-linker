@@ -1,19 +1,18 @@
 {
-  "name": "octo-resolver",
+  "name": "github-linker",
   "description": "Little module that helps with link resolving.",
   "version": "0.2.1",
-  "homepage": "https://github.com/octo-linker/resolver",
-  "bugs": "https://github.com/octo-linker/resolver/issues",
+  "homepage": "https://github.com/MangoTheCat/github-linker",
+  "bugs": "https://github.com/MangoTheCat/github-linker/issues",
   "license": "MIT",
   "main": "index.js",
   "author": {
-    "name": "Stefan Buck",
-    "email": "github@stefanbuck.com",
-    "url": "http://stefanbuck.com"
+    "name": "Gabor Csardi",
+    "email": "gcsardi@mangothecat.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/octo-linker/resolver"
+    "url": "https://github.com/MangoTheCat/github-linker"
   },
   "keywords": [],
   "dependencies": {
